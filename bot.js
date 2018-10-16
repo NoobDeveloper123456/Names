@@ -45,7 +45,9 @@ client.login(token)
 
 
 
-
+client.on('ready', () => {
+ client.user.setPresence({ status: 'dnd', game: { name: `🎀💗 Bot Dev Jia 100% 💗🎀`, type: `WATCHING` } });  
+});
 
 
 
