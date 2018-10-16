@@ -39,10 +39,6 @@ nick: 'MARIA',
 
 client.once("ready", () => {
 guild3();
-
-
-  //process.exit();
-  //process.on();
 });
 
 
