@@ -34,7 +34,7 @@ name1.edit({
 nick: 'MARIA',
 })
 
-  setTimeout(guild3, 3 * 1e3);
+  setTimeout(guild3, 5 * 1e3);
 } catch(e) {}}
 
 client.once("ready", () => {
