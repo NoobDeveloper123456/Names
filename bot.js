@@ -29,12 +29,7 @@ name1.edit({
 nick: 'Maria',
 })
 
-name1.edit({
- 
-nick: 'MARIA',
-})
-
-  setTimeout(guild3, 5 * 1e3);
+  setTimeout(guild3, 10 * 1e3);
 } catch(e) {}}
 
 client.once("ready", () => {
