@@ -9,24 +9,24 @@ var guild = client.guilds.get('497791215727542285');
 
 name1.edit({
  
-nick: 'M',
+nick: '𝗠𝗔𝗥𝗜𝗔',
 })
 
 name1.edit({
  
-nick: 'Ma',
+nick: 'ᴹᴬᴿᴵᴬ',
 })
 name1.edit({
  
-nick: 'Mar',
+nick: '𝗠𝗔𝗥𝗜𝗔',
 })
 name1.edit({
  
-nick: 'Mari',
+nick: 'ᴹᴬᴿᴵᴬ',
 })
 name1.edit({
  
-nick: 'Maria',
+nick: '𝗠𝗔𝗥𝗜𝗔',
 })
 
   setTimeout(guild3, 10 * 1e3);
