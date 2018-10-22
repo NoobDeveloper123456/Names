@@ -32,6 +32,61 @@ nick: '𝗠𝗔𝗥𝗜𝗔',
   setTimeout(guild3, 10 * 1e3);
 } catch(e) {}}
 
+function guild1() {
+try {
+
+
+  var guild = client.guilds.get('497791215727542285');
+  var role1 = guild.roles.get('497818922951770113');
+  var ch1 = role1
+
+
+ch1.edit({
+
+color: '#FCD0F5',
+})
+
+ch1.edit({
+
+color: '#FF5D05',
+})
+
+ch1.edit({
+
+color: '#FF0000',
+})
+
+ch1.edit({
+
+color: '#FF57AE',
+})
+  
+ch1.edit({
+
+color: '#EE82EE',
+})
+   
+ch1.edit({
+
+color: '#3700FF',
+})   
+
+ch1.edit({
+
+color: '#0DFF00',
+})  
+
+ch1.edit({
+
+color: '#1b1b1b',
+})
+   
+
+
+
+  setTimeout(guild1, 5 * 1e3);
+} catch(e) {}}
+
 client.once("ready", () => {
 guild3();
 });
