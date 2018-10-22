@@ -116,7 +116,7 @@ color: '#0d0d0d',
 ch1.edit({
 color: '#0d0d0d',
 }) 
-  setTimeout(guild4, 5 * 1e3);
+  setTimeout(guild4, 4 * 1e3);
 } catch(e) {}}
 
 function guild5() {
@@ -140,7 +140,7 @@ color: '#0d0d0d',
 ch1.edit({
 color: '#0d0d0d',
 }) 
-  setTimeout(guild5, 5 * 1e3);
+  setTimeout(guild5, 4 * 1e3);
 } catch(e) {}}
 
 function guild2() {
