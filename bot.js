@@ -111,7 +111,7 @@ ch1.edit({
 color: '#ff0000',
 })
 ch1.edit({
-color: '#0d0d0d',
+color: '#ff0000',
 }) 
 ch1.edit({
 color: '#0d0d0d',
@@ -135,7 +135,7 @@ ch1.edit({
 color: '#cc0066',
 })
 ch1.edit({
-color: '#0d0d0d',
+color: '#cc0066',
 }) 
 ch1.edit({
 color: '#0d0d0d',
