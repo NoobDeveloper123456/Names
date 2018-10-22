@@ -148,10 +148,7 @@ try {
 var guild = client.guilds.get('497791215727542285');
   var name1 = guild.members.get('309640010892574720');//.setNickname("some nickname");
 
-name1.edit({
- 
-nick: '𝗣𝗔𝗡𝗢𝗦',
-})
+
 name1.edit({
  
 nick: '𝗚𝗮𝗺𝗲𝗿𝗚𝗥',
