@@ -9,20 +9,16 @@ var guild = client.guilds.get('497791215727542285');
 
 name1.edit({
  
-nick: '𝗠𝗔𝗥𝗜𝗔',
+nick: 'My Sister',
 })
 
 name1.edit({
  
-nick: 'ᴹᴬᴿᴵᴬ',
+nick: 'My Sister',
 })
 name1.edit({
  
-nick: '𝗠𝗔𝗥𝗜𝗔',
-})
-name1.edit({
- 
-nick: 'ᴹᴬᴿᴵᴬ',
+nick: 'My Sister',
 })
 name1.edit({
  
