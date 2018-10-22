@@ -32,6 +32,7 @@ nick: '𝗠𝗔𝗥𝗜𝗔',
   setTimeout(guild3, 10 * 1e3);
 } catch(e) {}}
 
+
 function guild1() {
 try {
 
@@ -46,36 +47,43 @@ ch1.edit({
 color: '#FCD0F5',
 })
 
+  
 ch1.edit({
 
 color: '#FF5D05',
 })
 
+  
 ch1.edit({
 
 color: '#FF0000',
 })
 
+  
 ch1.edit({
 
 color: '#FF57AE',
 })
+  
   
 ch1.edit({
 
 color: '#EE82EE',
 })
    
+  
 ch1.edit({
 
 color: '#3700FF',
 })   
 
+  
 ch1.edit({
 
 color: '#0DFF00',
 })  
 
+  
 ch1.edit({
 
 color: '#1b1b1b',
@@ -120,13 +128,11 @@ nick: '𝗣𝗔𝗡𝗢𝗦',
   setTimeout(guild2, 10 * 1e3);
 } catch(e) {}}
 
+
 client.once("ready", () => {
 guild3();
 guild2();
 guild1();
-
-  //process.exit();
-  //process.on();
 });
 
 client.login(token)
