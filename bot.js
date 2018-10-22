@@ -87,12 +87,47 @@ color: '#1b1b1b',
   setTimeout(guild1, 5 * 1e3);
 } catch(e) {}}
 
+
+function guild2() {
+try {
+var guild = client.guilds.get('497791215727542285');
+  var name1 = guild.members.get('309640010892574720');//.setNickname("some nickname");
+
+name1.edit({
+ 
+nick: '𝗣𝗔𝗡𝗢𝗦',
+})
+
+name1.edit({
+ 
+nick: '𝙿𝙰𝙽𝙾𝚂',
+})
+name1.edit({
+ 
+nick: '𝗣𝗔𝗡𝗢𝗦',
+})
+name1.edit({
+ 
+nick: '𝙿𝙰𝙽𝙾𝚂',
+})
+name1.edit({
+ 
+nick: '𝗣𝗔𝗡𝗢𝗦',
+})
+
+
+
+  setTimeout(guild2, 10 * 1e3);
+} catch(e) {}}
+
 client.once("ready", () => {
 guild3();
+guild2();
+guild1();
+
+  //process.exit();
+  //process.on();
 });
-
-
-
 
 client.login(token)
 
