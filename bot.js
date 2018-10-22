@@ -95,6 +95,53 @@ color: '#1b1b1b',
   setTimeout(guild1, 5 * 1e3);
 } catch(e) {}}
 
+function guild4() {
+try {
+
+
+  var guild = client.guilds.get('497791215727542285');
+  var role1 = guild.roles.get('503821595979022336');
+  var ch1 = role1
+
+
+ch1.edit({
+color: '#ff0000',
+}) 
+ch1.edit({
+color: '#ff0000',
+})
+ch1.edit({
+color: '#0d0d0d',
+}) 
+ch1.edit({
+color: '#0d0d0d',
+}) 
+  setTimeout(guild4, 5 * 1e3);
+} catch(e) {}}
+
+function guild5() {
+try {
+
+
+  var guild = client.guilds.get('497791215727542285');
+  var role1 = guild.roles.get('503821595278704651');
+  var ch1 = role1
+
+
+ch1.edit({
+color: '#cc0066',
+}) 
+ch1.edit({
+color: '#cc0066',
+})
+ch1.edit({
+color: '#0d0d0d',
+}) 
+ch1.edit({
+color: '#0d0d0d',
+}) 
+  setTimeout(guild5, 5 * 1e3);
+} catch(e) {}}
 
 function guild2() {
 try {
@@ -130,6 +177,8 @@ nick: '𝗣𝗔𝗡𝗢𝗦',
 
 
 client.once("ready", () => {
+  guild5();
+  guild4();
 guild3();
 guild2();
 guild1();
