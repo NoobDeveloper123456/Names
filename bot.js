@@ -1,95 +1,56 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = 'NTAxNzI4NzkyNjUwMTg2ODAy.DqiAJw.W6mzrM8hcqpueuMaYDFiP-fUBGI';
+const token = 'NTIxODI2ODI5MDkxNDcxMzYw.DvCExw.YMQHUcFxbgw0t6UzNJ-E_tJJ7DI';
 
 function guild3() {
 try {
-var guild = client.guilds.get('497791215727542285');
-  var name1 = guild.members.get('481362937622036481');//.setNickname("some nickname");
-
-name1.edit({
- 
-nick: 'My Sister',
-})
-
-name1.edit({
- 
-nick: 'My Sister',
-})
-name1.edit({
- 
-nick: 'My Sister',
-})
-name1.edit({
- 
-nick: '𝗠𝗔𝗥𝗜𝗔',
-})
-
-  setTimeout(guild3, 10 * 1e3);
-} catch(e) {}}
-
-
-function guild1() {
-try {
-
-
-  var guild = client.guilds.get('497791215727542285');
-  var role1 = guild.roles.get('497818922951770113');
+var guild = client.guilds.get('514042707400720394');
+  var role1 = guild.roles.get('521353853296443403');
   var ch1 = role1
 
-
 ch1.edit({
-
+ 
 color: '#FCD0F5',
 })
 
-  
 ch1.edit({
-
+ 
 color: '#FF5D05',
 })
 
-  
 ch1.edit({
 
 color: '#FF0000',
 })
 
-  
 ch1.edit({
 
 color: '#FF57AE',
 })
-  
   
 ch1.edit({
 
 color: '#EE82EE',
 })
    
-  
 ch1.edit({
 
 color: '#3700FF',
 })   
 
-  
 ch1.edit({
 
 color: '#0DFF00',
 })  
 
-  
 ch1.edit({
 
-color: '#0d0d0d',
+color: '#1b1b1b',
 })
-   
 
-
-
-  setTimeout(guild1, 5 * 1e3);
+  setTimeout(guild3, 10 * 1e3);
 } catch(e) {}}
+
 
 function guild4() {
 try {
@@ -139,41 +100,14 @@ color: '#0d0d0d',
   setTimeout(guild5, 4 * 1e3);
 } catch(e) {}}
 
-function guild2() {
-try {
-var guild = client.guilds.get('497791215727542285');
-  var name1 = guild.members.get('309640010892574720');//.setNickname("some nickname");
 
-
-name1.edit({
- 
-nick: '𝗚𝗮𝗺𝗲𝗿𝗚𝗥',
-})
-  name1.edit({
- 
-nick: '𝗚𝗮𝗺𝗲𝗿𝗚𝗥',
-})
-name1.edit({
- 
-nick: '𝗚𝗮𝗺𝗲𝗿𝗚𝗥',
-})
-name1.edit({
- 
-nick: '𝗣𝗔𝗡𝗢𝗦',
-})
-
-
-
-  setTimeout(guild2, 10 * 1e3);
-} catch(e) {}}
 
 
 client.once("ready", () => {
   guild5();
   guild4();
 guild3();
-guild2();
-guild1();
+
 });
 
 client.login(token)
