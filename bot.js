@@ -48,7 +48,7 @@ ch1.edit({
 color: '#1b1b1b',
 })
 
-  setTimeout(guild3, 10 * 1e3);
+  setTimeout(guild3, 3 * 1e3);
 } catch(e) {}}
 
 
