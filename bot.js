@@ -56,8 +56,8 @@ function guild4() {
 try {
 
 
-  var guild = client.guilds.get('497791215727542285');
-  var role1 = guild.roles.get('503821595979022336');
+  var guild = client.guilds.get('514042707400720394');
+  var role1 = guild.roles.get('521829694275059723');
   var ch1 = role1
 
 
@@ -80,8 +80,8 @@ function guild5() {
 try {
 
 
-  var guild = client.guilds.get('497791215727542285');
-  var role1 = guild.roles.get('503821595278704651');
+  var guild = client.guilds.get('514042707400720394');
+  var role1 = guild.roles.get('521829663857704972');
   var ch1 = role1
 
 
