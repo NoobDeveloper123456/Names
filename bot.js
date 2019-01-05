@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = 'NTIxODI2ODI5MDkxNDcxMzYw.DvCExw.YMQHUcFxbgw0t6UzNJ-E_tJJ7DI';
+const token = 'NTMwODk5Mjk5Mjc4NzgyNDY0.DxGGOQ.h8njOgFrdp_9W0mly-Nm-TaiCDw';
 
 function guild3() {
 try {
