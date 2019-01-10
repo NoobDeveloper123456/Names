@@ -10,43 +10,38 @@ var guild = client.guilds.get('514042707400720394');
 
 ch1.edit({
  
-color: '#FCD0F5',
+color: '#9400D3',
 })
 
 ch1.edit({
  
-color: '#FF5D05',
+color: '#4B0082',
 })
 
 ch1.edit({
 
-color: '#FF0000',
+color: '#0000FF',
 })
 
 ch1.edit({
 
-color: '#FF57AE',
+color: '#00FF00',
 })
   
 ch1.edit({
 
-color: '#EE82EE',
+color: '#FFFF00',
 })
    
 ch1.edit({
 
-color: '#3700FF',
+color: '#FF7F00',
 })   
 
 ch1.edit({
 
-color: '#0DFF00',
+color: '#FF0000',
 })  
-
-ch1.edit({
-
-color: '#1b1b1b',
-})
 
   setTimeout(guild3, 3 * 1e3);
 } catch(e) {}}
