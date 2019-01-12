@@ -46,49 +46,6 @@ color: '#FF0000',
   setTimeout(guild3, 3 * 1e3);
 } catch(e) {}}
 
-function guild3a() {
-try {
-var guild = client.guilds.get('531130589869375488');
-  var role1 = guild.roles.get('533629227283644426');
-  var ch1 = role1
-
-ch1.edit({
- 
-color: '#9400D3',
-})
-
-ch1.edit({
- 
-color: '#4B0082',
-})
-
-ch1.edit({
-
-color: '#0000FF',
-})
-
-ch1.edit({
-
-color: '#00FF00',
-})
-  
-ch1.edit({
-
-color: '#FFFF00',
-})
-   
-ch1.edit({
-
-color: '#FF7F00',
-})   
-
-ch1.edit({
-
-color: '#FF0000',
-})  
-
-  setTimeout(guild3a, 3 * 1e3);
-} catch(e) {}}
 
 function guild4() {
 try {
@@ -145,7 +102,6 @@ client.once("ready", () => {
   guild5();
   guild4();
 guild3();
-  guild3a();
 
 });
 
