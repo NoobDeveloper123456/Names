@@ -43,10 +43,10 @@ ch1.edit({
 color: '#FF0000',
 })  
 
-  setTimeout(guild3a, 3 * 1e3);
+  setTimeout(guild3, 3 * 1e3);
 } catch(e) {}}
 
-function guild3() {
+function guild3a() {
 try {
 var guild = client.guilds.get('531130589869375488');
   var role1 = guild.roles.get('533625842329452555');
