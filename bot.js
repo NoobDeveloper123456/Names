@@ -49,7 +49,7 @@ color: '#FF0000',
 function guild3() {
 try {
 var guild = client.guilds.get('531130589869375488');
-  var role1 = guild.roles.get('533399617468104725');
+  var role1 = guild.roles.get('533625842329452555');
   var ch1 = role1
 
 ch1.edit({
