@@ -43,7 +43,7 @@ ch1.edit({
 color: '#FF0000',
 })  
 
-  setTimeout(guild, 3 * 1e3);
+  setTimeout(guild3, 3 * 1e3);
 } catch(e) {}}
 
 function guild3a() {
