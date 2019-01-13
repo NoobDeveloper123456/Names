@@ -5,7 +5,8 @@ const token = 'NTMwODk5Mjk5Mjc4NzgyNDY0.DxGGOQ.h8njOgFrdp_9W0mly-Nm-TaiCDw';
 function guild3() {
 try {
 var guild = client.guilds.get('514042707400720394');
-  var role1 = guild.roles.get('521353853296443403');
+  var role1 = guild.roles.find(role => role.name === "Rainbow"):
+  
   var ch1 = role1
 
 ch1.edit({
