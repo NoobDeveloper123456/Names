@@ -127,15 +127,19 @@ try {
 
 
 ch1.edit({
+name: 'Black',
 color: '#ff0000',
 }) 
 ch1.edit({
+  name: 'Pink',
 color: '#ff0000',
 })
 ch1.edit({
+  name: 'BlackPink',
 color: '#ff0000',
 }) 
 ch1.edit({
+  name: 'In your area',
 color: '#0d0d0d',
 }) 
   setTimeout(guild4, 4 * 1e3);
