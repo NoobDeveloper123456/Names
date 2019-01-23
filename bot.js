@@ -17,14 +17,7 @@ ch1.edit({
  
 color: '#ff4000',
 })
-ch1.edit({
- 
-color: '#ff8000',
-})
-ch1.edit({
- 
-color: '#ffbf00',
-})
+
 ch1.edit({
  
 color: '#ffff00',
@@ -33,30 +26,7 @@ ch1.edit({
  
 color: '#bfff00',
 })
-ch1.edit({
- 
-color: '#80ff00',
-})
-ch1.edit({
- 
-color: '#40ff00',
-})
-ch1.edit({
- 
-color: '#00ff00',
-})
-ch1.edit({
- 
-color: '#00ff40',
-})
-ch1.edit({
- 
-color: '#00ff80',
-})
-ch1.edit({
- 
-color: '#00ffbf',
-})
+
 ch1.edit({
  
 color: '#00ffff',
@@ -65,14 +35,7 @@ ch1.edit({
  
 color: '#00bfff',
 })
-ch1.edit({
- 
-color: '#0080ff',
-})
-ch1.edit({
- 
-color: '#0040ff',
-})
+
 ch1.edit({
  
 color: '#0000ff',
@@ -81,34 +44,7 @@ ch1.edit({
  
 color: '#4000ff',
 })
-ch1.edit({
- 
-color: '#8000ff',
-})
-ch1.edit({
- 
-color: '#bf00ff',
-})
-ch1.edit({
- 
-color: '#ff00ff',
-})
-ch1.edit({
- 
-color: '#ff00bf',
-})
-ch1.edit({
- 
-color: '#ff0080',
-})
-ch1.edit({
- 
-color: '#ff0040',
-})
-ch1.edit({
- 
-color: '#ff0000',
-})
+)
 
  
 
