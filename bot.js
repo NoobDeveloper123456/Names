@@ -48,38 +48,9 @@ color: '#4000ff',
 
  
 
-  setTimeout(guild3, 3 * 1e3);
+  setTimeout(guild3, 4 * 1e3);
 } catch(e) {}}
 
-
-
-function guild4() {
-try {
-
-
-  var guild = client.guilds.get('514042707400720394');
-  var role1 = guild.roles.get('521829694275059723');
-  var ch1 = role1
-
-
-ch1.edit({
-
-color: '#ff0000',
-}) 
-ch1.edit({
-  
-color: '#ff0000',
-})
-ch1.edit({
-  
-color: '#ff0000',
-}) 
-ch1.edit({
-  
-color: '#0d0d0d',
-}) 
-  setTimeout(guild4, 4 * 1e3);
-} catch(e) {}}
 
 function guild5() {
 try {
@@ -114,20 +85,11 @@ color: '#0d0d0d',
 
 client.once("ready", () => {
   guild5();
-  guild4();
 guild3();
 
 });
 
 client.login(token)
-
-
-
-
-
-client.on('ready', () => {
- client.user.setPresence({ status: 'dnd', game: { name: `🎀💗 Bot Dev Jia 100% 💗🎀`, type: `WATCHING` } });  
-});
 
 
 
